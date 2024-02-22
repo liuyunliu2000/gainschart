@@ -1,6 +1,6 @@
 import unittest
 
-from gainschart.gainschart import Number
+from gainschart.gs import *
 
 
 class TestSimple(unittest.TestCase):

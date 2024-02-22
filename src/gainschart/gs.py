@@ -1,3 +1,5 @@
+import webbrowser
+import PIL
 import pandas as pd
 import sklearn.metrics as metrics
 import numpy as np
@@ -11,14 +13,6 @@ import seaborn as sns
 from pandas.api.types import is_string_dtype
 from pandas.api.types import is_numeric_dtype
 
-'''
-combine multple pngs into one
-
-'''
-
-import numpy as np
-import PIL
-import webbrowser
 
 def combineimages(list_im, orient='vertical', finame="combined"):
     """
