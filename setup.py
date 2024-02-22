@@ -4,19 +4,19 @@ with open('README.md', 'r', encoding='utf-8') as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name='example_pypi_package',
-    author='Tom Chen',
-    author_email='tomchen.org@gmail.com',
-    description='Example PyPI (Python Package Index) Package',
-    keywords='example, pypi, package',
+    name='gainschart',
+    author='Yun Liu',
+    author_email='liuyunliu@gmail.com',
+    description='Gains Chart Package',
+    keywords='data science, ML, predictive modeling, regression, decision tree',
     long_description=long_description,
     long_description_content_type='text/markdown',
-    url='https://github.com/tomchen/example_pypi_package',
+    url='https://github.com/liuyunliu2000/gainschart',
     project_urls={
-        'Documentation': 'https://github.com/tomchen/example_pypi_package',
+        'Documentation': 'https://github.com/liuyunliu2000/gainschart',
         'Bug Reports':
-        'https://github.com/tomchen/example_pypi_package/issues',
-        'Source Code': 'https://github.com/tomchen/example_pypi_package',
+        'https://github.com/liuyunliu2000/gainschart/issues',
+        'Source Code': 'https://github.com/liuyunliu2000/gainschart',
         # 'Funding': '',
         # 'Say Thanks!': '',
     },
@@ -24,9 +24,9 @@ setuptools.setup(
     packages=setuptools.find_packages(where='src'),
     classifiers=[
         # see https://pypi.org/classifiers/
-        'Development Status :: 5 - Production/Stable',
+        'Development Status :: 1 - Dev',
 
-        'Intended Audience :: Developers',
+        'Intended Audience :: Data Scientists',
         'Topic :: Software Development :: Build Tools',
 
         'Programming Language :: Python :: 3',
