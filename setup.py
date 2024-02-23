@@ -26,7 +26,7 @@ setuptools.setup(
         # see https://pypi.org/classifiers/
         'Development Status :: 5 - Production/Stable',
 
-        'Intended Audience :: Data Scientists',
+        'Intended Audience :: Developers',
         'Topic :: Software Development :: Build Tools',
 
         'Programming Language :: Python :: 3',
