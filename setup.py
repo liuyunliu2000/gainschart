@@ -24,7 +24,7 @@ setuptools.setup(
     packages=setuptools.find_packages(where='src'),
     classifiers=[
         # see https://pypi.org/classifiers/
-        'Development Status :: 1 - Dev',
+        'Development Status :: 5 - Production/Stable',
 
         'Intended Audience :: Data Scientists',
         'Topic :: Software Development :: Build Tools',
